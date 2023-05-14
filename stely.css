@@ -1,0 +1,110 @@
+
+*{
+  margin: 0;
+
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #fafbfc;
+}
+
+header{
+  background-color: #DC143C;
+  padding: 10px;
+  color:aliceblue;
+  text-align: center;
+
+}
+
+main{
+  padding: 30px 50px;
+
+}
+
+.card{
+  background-color: #fff ;
+  border: 1px solid#DCDCDC;
+  padding: 20px ;
+  margin-top: 15px;
+  border-radius: 9px;
+  width: 880px;
+}
+
+.lineinput{
+  display:content;
+  margin-bottom: 10px;
+}
+
+input{
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: 0;
+}
+.categoria{
+  width: 150px;
+}
+.Tamanho{
+  width: 60px;
+}
+.cor{
+  width: 90px;
+}
+.preco {
+  width: 60px;
+}
+
+select{
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: 0;
+
+}
+
+button{
+  border: 0px;
+  padding: 10px;
+  outline: 0;
+  background-color: #DC143C;
+  color: #fff;
+  border-radius: 9px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+  transition: all ease 0.3ms;
+  
+}
+
+button:hover{
+  background-color: #800000;
+  color: #fff;
+
+}
+
+.conteudo{
+  margin: 10px;
+
+}
+
+table{
+  border-collapse: collapse;
+  border: 1px solid #8e8e8e;
+  width: 100%;
+
+}
+
+table th{
+  background-color: #ef2d54;
+  color: #fff;
+}
+
+table td img{
+  width: 23px;
+}
+
+.center{
+  text-align: center;
+}
+
+

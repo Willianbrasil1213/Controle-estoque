@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>controle de estoque</title>
+  <link rel="stylesheet" href="stely.css">
+
+  <link href="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,600;1,700&display=swap" rel="stylesheet">
+
+  <script src="java.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>Elegância Fashion</h1>
+    
+  </header>
+
+  <main>
+    <div class="titulo">
+      <h2>Controle de Estoque</h2>
+    </div>
+
+    <div class="card">
+      <div class="lineinput">
+        <label>Produtor</label>
+        <input type="text" id="produtor">
+        <label>Categoria</label>
+        <select id="categoria" class="categoria">
+          <option value="Oculos">Oculos</option>
+          <option value="Brincos">Brincos</option>
+          <option value="Colar">Colar</option>
+          <option value="Pulseira">Pulseira</option>
+          <option value="Camisa masculina">Camisa masculina</option>
+          <option value="Camisa Feminina">Camisa Feminina</option>
+          <option value="Short Masculino">Short Masculino</option>
+          <option value="Short Feminina">Short Feminina</option>
+          <option value="Sapatos masculina">Sapatos masculina</option>
+          <option value="Sapatos Feminina">Sapatos Feminina</option>
+          <option value="Chapeu">Chapeu</option>
+
+        </select>
+
+        <label>Tamanho</label>
+        <select id="Tamanho" class="Tamanho">
+          <option value="PP">PP </option>
+          <option value="P">P</option>
+          <option value="M">M</option>
+          <option value="G">G</option>
+          <option value="XG ">XG</option>
+          <option value="Pequeno">Pequeno</option>
+          <option value="Grande">Grande</option>
+          <option value="Extra Grande">Extra Grande</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="33">33</option>
+          <option value="34">34</option>
+          <option value="35">35</option>
+          <option value="36">36</option>
+          <option value="37">37</option>
+          <option value="38">38</option>
+          <option value="39">39</option>
+          <option value="40">40</option>
+          <option value="41">41</option>
+          <option value="42">42</option>
+          <option value="43">43</option>
+          <option value="44">44</option>
+          <option value="45">45</option>
+          <option value="46">46</option>
+          <option value="47">47</option>
+          <option value="48">48</option>
+
+
+        </select>
+
+        <label>Cor</label>
+        <select id="cor" class="cor">
+          <option value="Amarelo">Amarelo </option>
+          <option value="Azul">Azul</option>
+          <option value="Branco">Branco </option>
+          <option value="Creme">Creme </option>
+          <option value="Azul escuro">Azul escuro </option>
+          <option value="Azul marinho">Azul marinho </option>
+          <option value="Castanho claro">Castanho claro </option>
+          <option value="Coral">Coral </option>
+          <option value="Jade">Jade </option>
+          <option value="Laranja">Laranja </option>
+          <option value="Marrom claro">Marrom claro </option>
+          <option value="Pardo">Pardo </option>
+          <option value="Rosa">Rosa </option>
+          <option value="Roxo">Roxo </option>
+          <option value="Turquesa">Turquesa </option>
+          <option value="Verde">Verde </option>
+        </select>
+        <label>Preço</label>
+        <input type="number" id="Preco" class="preco">
+      </div>
+
+      <div class="lineinput">
+
+        <label>Descrição</label>
+        <input type="text" id="descricao">
+        <button onclick="produto.salvar()" id="bt1">adicionar</button>
+        <button onclick="produto.cancelar()">Excluir</button>
+      </div>
+    </div>
+    <div class="conteudo">
+      <table border="1">
+        <thead>
+          <th class="center">ID</th>
+          <th>NOME DO PRODUTO</th>
+          <th>CATEGORIA</th>
+          <th>TAMANHO</th>
+          <th>COR</th>
+          <th>PREÇO(R$)</th>
+          <th>DESCRIÇÃO</th>
+          <th class="center">AÇÃO</th>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+      </table>
+
+  </main>
+
+
+
+</body>
+
+</html>
